@@ -2,9 +2,9 @@
 
 ## Contacts:
 
-- Telephone/Viber/Telegram: +375 29 6508711
-- Discord: EvgenS#8275
-- Email: senyuk_e@mail.ru
+- **Telephone/Viber/Telegram:** +375 29 6508711
+- **Discord:** EvgenS#8275
+- **Email:** senyuk_e@mail.ru
 
 ---
 
@@ -31,3 +31,22 @@ function multiply(a, b){
 return a * b;
 }
 ```
+
+---
+
+## Education:
+
+- SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL
+- **Course:**
+
+  - Completed the basic HTML and CSS course in [Result.School](https://vladilen.ru)
+
+  * Passed intensive HTML and CSS in [ITlogia](https://itlogia.ru/)
+
+---
+
+## Languages:
+
+- _English_ - Intermediate
+- _Russian_ - Native
+- _Belarusian_ - Intermediate
