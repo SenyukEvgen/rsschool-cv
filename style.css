@@ -1,1 +1,147 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #009999;
+  color: #fff;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgba(97, 216, 162, 0.1);
+}
+
+.section:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  padding: 0px 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fce38a;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+#profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.section {
+  line-height: 1.5;
+  width: 50%;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.prof {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  border-top: 1px solid #fce38a;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #fce38a;
+}
+
+.main-list {
+  list-style: none;
+  padding: 10px;
+}
+
+.footer-link img {
+  height: 50px;
+}
+
+.yers {
+  color: black;
+}
